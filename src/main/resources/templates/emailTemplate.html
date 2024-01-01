@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body style="width: 600px; background-color: white; margin: 0;">
+
+    <div style="position: absolute; width: 600px; height: 570px; background-color: black;">
+        <img src="cid:logoImage" alt="logo"  style="display: block; width: 100%;" />
+
+        <div style="padding: 10px">
+            <h3 style="color: white; letter-spacing: 1px; padding: 0 20px">
+                Hello,
+                <span th:text="${userName}"></span>
+            </h3>
+            <p style="font-size: 16px; color: white; padding: 0 20px;">
+                Welcome to be a member of Lorelinks.com.
+            </p>
+
+            <p style="color: white; letter-spacing: 1px; padding: 0 20px; font-family: 'Roboto Flex', sans-serif;" >
+                Regards,<br/>Harvey
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
